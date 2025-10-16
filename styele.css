@@ -1,22 +1,23 @@
 body {
-  background-color: #FFFFE0; /* WARNA KUNING CERAH */
-  font-family: Arial, sans-serif; /* Jenis huruf yang bersih dan mudah dibaca */
-  color: #191970;
+  background-color: #FFFFE0; 
+  font-family: Arial, sans-serif;
+  color: #191970; /* Warna teks global untuk body */
 }
 
 .kartu-profil {
-  width: 300px; /* Perbaikan: 'widht' menjadi 'width' */
-  /* 50px jarak atas/bawah, auto menegahkan kiri/kanan */
+  width: 300px; 
   margin: 50px auto; 
   padding: 20px;
   background-color: white;
-  border-radius: 20px; /* Membuat sudut menjadi melengkung */
-  /* Efek bayangan, perbaikan sintaksis rgba */
+  border-radius: 20px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
-  text-align: center; /* Menegahkan teks di dalam kartu */
+  
+  /* Text di tengah dan berwarna merah */
+  text-align: center; 
+  color: #FF0000; 
 }
 
 .kartu-profil img {
   width: 150px;
-  border-radius: 50%; /* Membuat gambar menjadi lingkaran */
-} /* Perbaikan: Kurung kurawal penutup ditambahkan */
+  border-radius: 50%; 
+}
