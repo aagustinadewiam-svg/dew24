@@ -1,21 +1,25 @@
 body {
   background-color: #FFFFE0; /* Warna kuning cerah */
-  font-family: Arial, sans-serif; /* Jenis huruf yang bersih dan mudah 
+  /* Komentar ditutup dengan benar */
+  font-family: Arial, sans-serif; 
   color: #191970; /* Warna teks utama (Biru Gelap) */
 }
 
 .kartu-profil { 
   width: 300px;
-  margin: 50px auto; /* 50px jarak atas/bawah, auto menengahkan kiri
+  /* Komentar ditutup dengan benar */
+  margin: 50px auto; 
   padding: 20px;
   background-color: white;
-  border-radius: 15px; /* membuat sudut menjadi melengkung 
-  bok-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Efek bayangan 
-  text-align: center; /* Menengahkan semua teks didalam kartu
+  /* Komentar ditutup dengan benar */
+  border-radius: 15px; 
+  /* PERBAIKAN: 'bok-shadow' menjadi 'box-shadow' */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  text-align: center; /* Menengahkan semua teks didalam kartu */
 }
 
-
-.kartu-profil img{
+.kartu-profil img {
   width: 150px;
-  border-radius: 50%; /* Trik untuk mmembuat gambar 
+  /* PERBAIKAN: Komentar ditutup dan typo diperbaiki */
+  border-radius: 50%; /* Trik untuk membuat gambar menjadi lingkaran */ 
 }
